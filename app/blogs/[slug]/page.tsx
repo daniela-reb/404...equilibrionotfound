@@ -58,7 +58,7 @@ const formatDate = new Date(
               />
             )}
               </div>
-            <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 rounded-lg hover:bg-white/90 transition-colors">
+            <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 rounded-lg bg-white/90 md:bg-transparent md:hover:bg-white/90 transition-colors">
              <h1 className="text-3xl font-bold text-teal-900 tracking-wide">
             {post.title}
             </h1>

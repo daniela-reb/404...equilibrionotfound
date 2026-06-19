@@ -19,7 +19,10 @@ export default function BookCard() {
                     w-full flex justify-center mb-6
                     md:absolute md:w-auto md:mb-0
                     ${positions[index]} 
-                    transition-all duration-300 hover:scale-110 hover:z-50 hover:bg-white/80 hover:rounded-2xl
+                    bg-white/80 rounded-2xl
+                    md:bg-transparent md:rounded-none
+                    transition-all duration-300 
+                    hover:scale-110 hover:z-50 hover:bg-white/80 hover:rounded-2xl
                 `}
                 >
                 <AboutCard 
